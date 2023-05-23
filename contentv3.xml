@@ -1,0 +1,2640 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value="1º ESO - Prácticas micro:bit"></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_addSearchBox"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value="presencial"></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value="classroom"></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_exportElp"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_extraHeadContent"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_fieldValidationInfo"></string>
+  <dictionary>
+   <unicode role="key" value="all"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_title"></unicode>
+     <unicode value="pp_lang"></unicode>
+     <unicode value="pp_description"></unicode>
+     <unicode value="pp_author"></unicode>
+     <unicode value="pp_newlicense"></unicode>
+    </list>
+   </dictionary>
+   <unicode role="key" value="procomun"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_learningResourceType"></unicode>
+    </list>
+    <unicode role="key" value="values_from_list"></unicode>
+    <dictionary>
+     <unicode role="key" value="pp_learningResourceType"></unicode>
+     <list>
+      <unicode value="master class"></unicode>
+      <unicode value="closed exercise or problem"></unicode>
+      <unicode value="real project"></unicode>
+      <unicode value="didactic game"></unicode>
+      <unicode value="webquest"></unicode>
+      <unicode value="open problem"></unicode>
+      <unicode value="simulation"></unicode>
+      <unicode value="questionnaire"></unicode>
+      <unicode value="conceptual map"></unicode>
+     </list>
+    </dictionary>
+   </dictionary>
+  </dictionary>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value="learner"></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="Prcticas_microbit"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="8"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="8"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="4">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Placa micro:bit"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="_attributes"></string>
+        <list>
+         <tuple>
+          <string value="title"></string>
+          <list>
+           <string value="Title"></string>
+           <int value="0"></int>
+           <int value="0"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="category"></string>
+          <list>
+           <string value="Category"></string>
+           <int value="0"></int>
+           <int value="1"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="css-class"></string>
+          <list>
+           <string value="CSS class"></string>
+           <int value="0"></int>
+           <int value="2"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="icon"></string>
+          <list>
+           <string value="Icon"></string>
+           <int value="0"></int>
+           <int value="3"></int>
+          </list>
+         </tuple>
+        </list>
+        <string role="key" value="_author"></string>
+        <string value=""></string>
+        <string role="key" value="_iDeviceDir"></string>
+        <string value="text"></string>
+        <string role="key" value="_purpose"></string>
+        <string value=""></string>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="_valid"></string>
+        <bool value="1"></bool>
+        <string role="key" value="class_"></string>
+        <unicode value="text"></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+        <int value="1"></int>
+        <string role="key" value="fields"></string>
+        <list>
+         <instance class="exe.engine.field.TextAreaField" reference="3">
+          <dictionary>
+           <string role="key" value="_id"></string>
+           <unicode value="114_2"></unicode>
+           <string role="key" value="_idevice"></string>
+           <reference key="1"></reference>
+           <string role="key" value="_instruc"></string>
+           <string value=""></string>
+           <string role="key" value="_name"></string>
+           <string value=""></string>
+           <string role="key" value="anchor_names"></string>
+           <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
+           <string role="key" value="content_w_resourcePaths"></string>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Micro:bit es una pequeña placa diseñada por la BBC para aprender robótica en escuelas, es fácil de conectar y programar y tiene varios sensores incorporados.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/pasted_image_0.png&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;500&quot; height=&quot;205&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;En la siguiente imagen se pueden apreciar las partes de la placa micro:bit por ambas caras:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/pasted_image_1.png&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;800&quot; height=&quot;412&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;La placa micro:bit es muy versátil, ya que podemos programarla desde un ordenador (sin importar el sistema operativo) o desde una tablet o teléfono móvil.&lt;/p&gt;
+&lt;p&gt;Si vamos a utilizar el ordenador, necesitaremos un cable USB para conectarlo a la placa. Cuando conectas la placa, aparecerá en el ordenador como una memoria USB llamada MICROBIT.&lt;/p&gt;
+&lt;p&gt;Cuando creamos un programa, podemos descargar el archivo del programa al ordenador y posteriormente, copiarlo a la unidad MICROBIT, lo que hará que se empiece a ejecutar en la Micro:Bit.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+           <int value="4"></int>
+           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="htmlTag"></string>
+           <string value="div"></string>
+           <string role="key" value="images"></string>
+           <instance class="exe.engine.galleryidevice.GalleryImages">
+            <dictionary>
+             <string role="key" value=".listitems"></string>
+             <list>
+              <instance class="exe.engine.galleryidevice.GalleryImage">
+               <dictionary>
+                <string role="key" value="_caption"></string>
+                <instance class="exe.engine.field.TextField">
+                 <dictionary>
+                  <string role="key" value="_id"></string>
+                  <int value="266"></int>
+                  <string role="key" value="_idevice"></string>
+                  <none></none>
+                  <string role="key" value="_instruc"></string>
+                  <string value=""></string>
+                  <string role="key" value="_name"></string>
+                  <string value=""></string>
+                  <string role="key" value="content"></string>
+                  <string value=""></string>
+                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                  <int value="4"></int>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_id"></string>
+                <unicode value="0_114_2.16"></unicode>
+                <string role="key" value="_imageResource"></string>
+                <instance class="exe.engine.resource.Resource" reference="5">
+                 <dictionary>
+                  <string role="key" value="_idevice"></string>
+                  <reference key="1"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="2"></reference>
+                  <string role="key" value="_storageName"></string>
+                  <string value="pasted_image_0.png"></string>
+                  <string role="key" value="_userName"></string>
+                  <string value="c:\\users\\mcm\\appdata\\local\\temp\\tmpcbhaqs\\pasted_image_0.png"></string>
+                  <string role="key" value="checksum"></string>
+                  <string value="afc20a7acdb488f1a672d3d838eea6ff"></string>
+                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="warningMsg"></string>
+                  <string value=""></string>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_parent"></string>
+                <reference key="3"></reference>
+                <string role="key" value="_thumbnailResource"></string>
+                <none></none>
+                <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="makeThumbnail"></string>
+                <bool value="0"></bool>
+               </dictionary>
+              </instance>
+              <instance class="exe.engine.galleryidevice.GalleryImage">
+               <dictionary>
+                <string role="key" value="_caption"></string>
+                <instance class="exe.engine.field.TextField">
+                 <dictionary>
+                  <string role="key" value="_id"></string>
+                  <int value="267"></int>
+                  <string role="key" value="_idevice"></string>
+                  <none></none>
+                  <string role="key" value="_instruc"></string>
+                  <string value=""></string>
+                  <string role="key" value="_name"></string>
+                  <string value=""></string>
+                  <string role="key" value="content"></string>
+                  <string value=""></string>
+                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                  <int value="4"></int>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_id"></string>
+                <unicode value="0_114_2.17"></unicode>
+                <string role="key" value="_imageResource"></string>
+                <instance class="exe.engine.resource.Resource" reference="6">
+                 <dictionary>
+                  <string role="key" value="_idevice"></string>
+                  <reference key="1"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="2"></reference>
+                  <string role="key" value="_storageName"></string>
+                  <string value="pasted_image_1.png"></string>
+                  <string role="key" value="_userName"></string>
+                  <string value="c:\\users\\mcm\\appdata\\local\\temp\\tmpcbhaqs\\pasted_image_1.png"></string>
+                  <string role="key" value="checksum"></string>
+                  <string value="639eb26f80124d1e2d1e58fb374b31ba"></string>
+                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="warningMsg"></string>
+                  <string value=""></string>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_parent"></string>
+                <reference key="3"></reference>
+                <string role="key" value="_thumbnailResource"></string>
+                <none></none>
+                <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="makeThumbnail"></string>
+                <bool value="0"></bool>
+               </dictionary>
+              </instance>
+             </list>
+             <string role="key" value="idevice"></string>
+             <reference key="3"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="intlinks_to_anchors"></string>
+           <dictionary></dictionary>
+           <string role="key" value="nextImageId"></string>
+           <int value="18"></int>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="icon"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="id"></string>
+        <unicode value="0"></unicode>
+        <string role="key" value="ideviceCategory"></string>
+        <unicode value="Text and Tasks"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="nextFieldId"></string>
+        <int value="3"></int>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parentNode"></string>
+        <reference key="4"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list>
+         <reference key="5"></reference>
+         <reference key="6"></reference>
+        </list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="2"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="website"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Placa%20micro%3Abit"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="9">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Programar la placa micro:bit"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="7">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="8">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="115_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="7"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Para programar nuestra placa lo haremos mediante la página de &lt;a href=&quot;https://makecode.microbit.org/#&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Makecode&lt;/a&gt;, de la empresa Microsoft.&lt;/p&gt;
+&lt;p&gt;Se programa desde un navegador de Internet, conectando la placa al ordenador mediante un cable USB.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/pasted_image_2.png&quot; alt=&quot;&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;600&quot; height=&quot;382&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;En la siguiente imagen podemos ver las partes principales de la página de Makecode:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/pasted_image_3.png&quot; alt=&quot;&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;601&quot; height=&quot;291&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="268"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="1_115_2.16"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="10">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="pasted_image_2.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mcm\\appdata\\local\\temp\\tmpcbhaqs\\pasted_image_2.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="925f7a2a338c7c6ac2a080af0b2326dd"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="269"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="1_115_2.17"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="11">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="pasted_image_3.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mcm\\appdata\\local\\temp\\tmpcbhaqs\\pasted_image_3.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="eb631b45069540f83a0d21a1b7dedb8d"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="idevice"></string>
+                <reference key="8"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="18"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="9"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="9"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="10"></reference>
+            <reference key="11"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Placa%20micro%3Abit:Programar%20la%20placa%20micro%3Abit"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="14">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Práctica 1"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="12">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Task"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="pbl-tools"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="pbl"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="13">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="116_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="12"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Vamos a crear un programa para que se visualice en la placa microbit una cara sonriente.&lt;/p&gt;
+&lt;p&gt;El funcionamiento será el siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Al iniciar el programa aparecerá la &quot;cara sonriente&quot;.&lt;/li&gt;
+&lt;li&gt;Al cabo de 2 segundos la pantalla se apagará.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Mostrar retroalimentación&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;&lt;strong&gt;CÓDIGO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/imagen.png&quot; alt=&quot;&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;308&quot; height=&quot;547&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="264"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="2_116_2.2"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="15">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="12"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="imagen.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mcm\\appdata\\local\\temp\\tmpcbhaqs\\imagen.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="b498087a5d5fe64b9afc26d5c8165099"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="13"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="idevice"></string>
+                <reference key="13"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="3"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="14"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="15"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="16">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Paso a paso"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="17">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="114_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="16"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;ol&gt;
+&lt;li&gt;&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt;Entra en la web &lt;/span&gt;&lt;a href=&quot;https://makecode.microbit.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt;https://makecode.microbit.org/&lt;/span&gt;&lt;/a&gt;&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt; y haz clic en &lt;/span&gt;Nuevo proyecto&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/28rGjNbpCjyS9XUhKn2DVc0mJq5ALDAffqHxsdnFWZZRw05s53Za8yl47gvFnidaW1jWTDavenqNiO0rqUN1VsmazEvEOIRBJWlV9MXVmvYar6sUbnBZgIBr_KrGhy-r_f2P2C-yVjvME1Vz4fPfYKnCN702ZKI_eO0enHTXOvCApt1j-M8PsW6iMARuJA&quot; alt=&quot;&quot; role=&quot;presentation&quot; class=&quot;img-fluid atto_image_button_text-bottom&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;500&quot; height=&quot;432&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Ponle el nombre Práctica 1 - Nombre y apellidos y haz clic en Crear.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/3L3B1n9C7USRP73Pqmmz-Kx9VPYxWCyU5gBrCnDy7EIrwupGefgqlp8HwMEStaYV8vsnPyqe6GoRZ-qB_Kv1LrNpqQ92GyE1lgZhXyE29IJLrCdcP7Zz_5xaTkwRzDnTr2khF6fYlxeh6IPqtYVxRirB1I72E-lbOgzHZYoBT7guZrc67dF-5HtZ0Z7flA&quot; alt=&quot;&quot; role=&quot;presentation&quot; class=&quot;img-fluid atto_image_button_text-bottom&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;450&quot; height=&quot;280&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Arrastra el bloque mostrar Leds e introdúcelo dentro del bloque al iniciar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/75c--hIVDJUZFPdx6O5GsaPLfODg85Rq-s4CsOnoVh-IyigsQr1ES3PuEx9te9VpXg25Z8xPmeC-US1h8Kliyddh9cOLfVdDf4xNOefqWH8rYnYwsGeNSD91eaG0O40UoYFiIMbO_DywFrLHEVOA5FFlMZjhn8BFTKKKVzyDPD7w04Lfto2ra5u_p5SpWA&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;204&quot; height=&quot;263&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt;Haz clic en cada uno de los cuadraditos hasta formar la cara feliz.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/BqTTJoksFia0Q3zUq-wabDzkDZLZk4k6BD4kds6yyS0OFGkLTX988gNGXNDASwZ7RIq6nWvRampYKh1nP_3tWeGjL5pbw-rJpFZZWmuhZQPZpOJswBab0S3BuCTHK9bLN29FNitSR502eoy-iAv8k1R1pgqxtTR6jLsYINNSJM2Rr0vJ5PyHbSIgj7lSDA&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;207&quot; height=&quot;270&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Coge el bloque pausa (ms) y colócalo justo debajo del anterior.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/7hAApKEooMRhMdR-hU3B6GYs1Ic5MCSyWqlMk8jFge-xXGbLVqiVPJiItCNkRh1eqT1Ou9ysQgLlV_tsH5zvrxk0bSFm3FB4AoTkaR4uENXFx-1eDgXgvgHfdNV_T_pLUbKlkbEU1qejRVU5cG5LSvkll2qlFR3jMVsy6RsQgPgKz3wEYv2s5dSt3LI1OA&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;216&quot; height=&quot;106&quot; /&gt;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/MftRlcbB-oLYUND2fpJyKeXtJnRetziFHC3CH7Ru47EIcJRwSj6aNx0ek43XYkdDV9x3cFvH6OsjIzJVIAt6eiZ2wFQvmjIqHp9sixSpOCD08h4GkjrE5LAcu8SZtnFUeRPP9th5CRZ9P270kQj3x_kxbFif2jTlCyccT3JW9z_6jdsbHYOT-1YyR2yrJg&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;216&quot; height=&quot;298&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Cambia el tiempo del bloque pausa (ms) y ponle 2 segundos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/mj-1w4IFEC5RydpmrQ4oYUz_nWvHtJfEZakxrn0pspCSHh7_waLfJ-IPv8nvrq9vEfd5drKenXHP4a3U_R4CMxdDE_wa3KTuA7hdt_WdjaespZpzZVmcuZohv8NwGsigWNrjW_gI7yc_6xkiWBLtnOIeRaNecVKxqOKoTZeWy8dbXdXOOVQZ-c7KBGmvgQ&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;227&quot; height=&quot;229&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt;Debe de quedar así:&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/GGFtR7FnzE9iUytHU1qnGDxSqM-0SRsdNj3tOmTpHs6dw0aY-SxJTmODbdSvus_DHkPH1dNquLarPqINJdoPUO8lMjidpSgFOMHu2J2eJmQr286kR33kXfIt-qg4TkxRJZ_St-xM4u0U_AqZG672P8f0xv2Al5qgjj4QKOiWClC-0hIxpT3lX-9gJ8_VZQ&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;224&quot; height=&quot;317&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;8&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Añade otro bloque pausa (ms) con 500 ms para hacer un poco de espera al principio.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/w3PhUzoj4ss597KKJl2B47EUynVqQ0iqjdO7TYItIIFVfAfxye8RdR6pghJXNsu5Ih_nxnFdHFZrwRwHrv63br1MEFBXD7UgLgdhAOkjjfkdv62lZ9cLuOy7daicuYYQ9lb8qS4iftfvaVdqjBUkY7S9CPi1rjB7EXSJLu_sgbzCH3QMWPK2VJuunfPWfA&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;206&quot; height=&quot;372&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;9&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Para que se borre la pantalla al cabo de dos segundos añadimos a continuación el bloque borrar pantalla.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/5QBZPmBkE2yT_39ZI1cTycA5w4t7h__yVXc5t0hB59Xw_0fwqrqU-Y3DvF5yRLUI5dqGAi0DU9D0pK9peW36Kyklr97xjCJ_6AwrDts44vo76Y9S8gwTGf41zzXovsRRr-uBp8KGu2x944Pv-1jcvePiCvvLrY8tpUTnVPIDmKIbmwfNk3R-hPZumpynpA&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;239&quot; height=&quot;398&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;10&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt;Comprueba que la programación es correcta en el simulador.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/YtG3s7MeCthoMlCJ2ZXCucco2kuHLS6n16CsVGhiJs9RlI6D1bZc9OYuNKvGXZrhcyIAHbxMAOKSDxvJ0B67lmHcT7MFS5A6QmLcg1n5moKq2bFxokXclVseU0jiE_fU7ApkcsPQN5UcK6-_U-1u6BnJtiZeCGkr3JutzriQrrYctVleNj0GDKVDVEWnbg&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;295&quot; height=&quot;275&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;11&quot;&gt;
+&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
+&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Ahora vamos a pasar el programa a nuestra placa micro:BIT:&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style=&quot;margin-left: 30px;&quot; class=&quot;editor-indent&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt;Conecta la micro:BIT al ordenador, aparece como una nueva unidad.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/y3M0aGqQnc5nq6YXZh0qyrom5tdoXI5-eLLGiGyk9DQEdOtpk_FCGdpiREVpePaotMcW4ezd_LLV2TXocPUMzpMZo3fkNYtBCR2rwPMXw3xJjxXaKjL5stDpco0AIrblNndYNkYiG0-QkPqY8xlWF3ftoMhmiGZqura8J2s5kzbPmU0Vqvy98am6ouK83w&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;235&quot; height=&quot;83&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt;Pulsa sobre el icono de descarga.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/EN8jC0lexKowhJ5myRhjZoUDA3cQkKtaKf0HpQ0uVPkFcVtREr2T_oH2tNRex5oBOjSRwofc1uzY4wYZ6FLxLKmBc-6yU3roHOmyP5iiwyGZMC_jqIkPwv0ri4hv2GKrk8Wh2OcDGlc4AQba4eSO7e67P1dFn4FVqs4mSivx-tznDDhlmjZiXWw42CdNnA&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;667&quot; height=&quot;84&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Copia el fichero a la unidad que apareció tras conectar la micro:BIT al ordenador.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&quot;&quot; style=&quot;font-size: medium;&quot;&gt; &lt;/span&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/jlJsKqJEhkzXTxEmA-p0usONv8D0QUiwb_l-UvW-6lD2oPrWT0tWt9LaTd4oahZ1FN_Nx2yJcPvUU4cZWOD_6XuN8TxBJrBxeRU8nuwkmaqN045uJFCw9oyyZ3m5QgRRt_q_GJYwG7hKbXoUr1v6ibV-4J2ElUrsfmcK6btYH4YUdxqnRao6VWTzFNb9PA&quot; alt=&quot;&quot; role=&quot;presentation&quot; class=&quot;img-fluid atto_image_button_text-bottom&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;450&quot; height=&quot;307&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="17"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="14"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Placa%20micro%3Abit:Pr%C3%A1ctica%201"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="20">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Práctica 2"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="18">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Task"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="pbl-tools"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="pbl"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="19">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="114_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="18"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Vamos a crear un programa para que se visualice en la placa microbit las iniciales de tu nombre y apellidos.&lt;/p&gt;
+&lt;p&gt;El funcionamiento será el siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Al iniciar el programa aparecerá la inicial de tu nombre, pausa de medio segundo, inicial de tu primer apellido, otra pausa de medio segundo y por último inicial de tu segundo apellido.&lt;/li&gt;
+&lt;li&gt;Al cabo de 1 segundo la pantalla se apagará y se iniciará de nuevo todo el proceso&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Mostrar retroalimentación&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;table style=&quot;width: 100%;&quot; border=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;resources/imagen.1.png&quot; alt=&quot; &quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;267&quot; height=&quot;691&quot; /&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;resources/img1.png&quot; alt=&quot;&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;294&quot; height=&quot;541&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="263"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="3_114_2.4"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="21">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="18"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="imagen.1.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mcm\\appdata\\local\\temp\\tmpcbhaqs\\imagen.1.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="96dcc8b9cdf7764e719f0e5549c8acad"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="19"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="265"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="3_114_2.5"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="22">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="18"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="img1.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mcm\\appdata\\local\\temp\\tmpcbhaqs\\img1.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="a516de1399046fbde29b2ee126db0874"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="19"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="idevice"></string>
+                <reference key="19"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="6"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="20"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="parentNode"></string>
+           <reference key="20"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="21"></reference>
+            <reference key="22"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Placa%20micro%3Abit:Pr%C3%A1ctica%202"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="25">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Práctica 3"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="23">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Task"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="pbl-tools"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="pbl"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="24">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="115_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="23"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Vamos a crear un programa para que se visualice en la placa microbit tu nombre y a continuación un icono.&lt;/p&gt;
+&lt;p&gt;El funcionamiento será el siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Al iniciar el programa aparecerá tu nombre, pausa de un segundo, icono y otra pausa de un segundo.&lt;/li&gt;
+&lt;li&gt;Al cabo de 2 segundos la pantalla se apagará.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Mostrar retroalimentación&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;CÓDIGO&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: 'Open Sans',sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot; id=&quot;docs-internal-guid-41069b32-7fff-14c6-ade8-05bde5e6db13&quot;&gt;&lt;span style=&quot;border: none; display: inline-block; overflow: hidden; width: 236px; height: 331px;&quot;&gt;&lt;img src=&quot;data:image/png;base64,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&quot; style=&quot;margin-left: 0px; margin-top: 0px;&quot; width=&quot;236&quot; height=&quot;331&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="24"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="2"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="25"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="4"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="parentNode"></string>
+           <reference key="25"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Placa%20micro%3Abit:Pr%C3%A1ctica%203"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="14"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="20"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="25"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="9"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="14"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value="1º ESO - Prácticas micro:bit"></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="16"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="other"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="school"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="1\xc2\xba ESO - Pr\xc3\xa1cticas micro:bit"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="26">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2023-05-23T18:22:35.00+02:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="27">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="28">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <reference key="26"></reference>
+         <string role="key" value="entity"></string>
+         <list>
+          <reference key="27"></reference>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <reference key="28"></reference>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <none></none>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="yes"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="presencial"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="classroom"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="1\xc2\xba ESO - Pr\xc3\xa1cticas micro:bit"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="29">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2023-05-23T18:22:35.00+02:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="30">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="31">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <reference key="29"></reference>
+         <string role="key" value="entity"></string>
+         <list>
+          <reference key="30"></reference>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <reference key="31"></reference>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="creative commons: attribution - share alike"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="release"></string>
+  <string value="2.7"></string>
+  <string role="key" value="resources"></string>
+  <dictionary>
+   <string role="key" value="639eb26f80124d1e2d1e58fb374b31ba"></string>
+   <list>
+    <reference key="6"></reference>
+   </list>
+   <string role="key" value="925f7a2a338c7c6ac2a080af0b2326dd"></string>
+   <list>
+    <reference key="10"></reference>
+   </list>
+   <string role="key" value="96dcc8b9cdf7764e719f0e5549c8acad"></string>
+   <list>
+    <reference key="21"></reference>
+   </list>
+   <string role="key" value="a516de1399046fbde29b2ee126db0874"></string>
+   <list>
+    <reference key="22"></reference>
+   </list>
+   <string role="key" value="afc20a7acdb488f1a672d3d838eea6ff"></string>
+   <list>
+    <reference key="5"></reference>
+   </list>
+   <string role="key" value="b498087a5d5fe64b9afc26d5c8165099"></string>
+   <list>
+    <reference key="15"></reference>
+   </list>
+   <string role="key" value="eb631b45069540f83a0d21a1b7dedb8d"></string>
+   <list>
+    <reference key="11"></reference>
+   </list>
+  </dictionary>
+  <string role="key" value="root"></string>
+  <reference key="4"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="udl"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
